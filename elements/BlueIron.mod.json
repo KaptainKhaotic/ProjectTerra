@@ -1,0 +1,62 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "pixil-frame-0_65_copy",
+    "enableBody": true,
+    "textureBody": "pixil-frame-0_65_copy",
+    "enableLeggings": true,
+    "textureLeggings": "pixil-frame-0_65_copy",
+    "enableBoots": true,
+    "textureBoots": "pixil-frame-0_65_copy",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "iron_",
+    "helmetName": "Blue Iron Helm",
+    "bodyName": "Blue Iron Body",
+    "leggingsName": "Blue Iron Leggings",
+    "bootsName": "Blue Iron Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 20,
+    "toughness": 3.0,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.TNT"
+      }
+    ]
+  }
+}

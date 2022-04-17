@@ -1,0 +1,7 @@
+{
+  "parent": "terra:custom/harkonnenfix",
+  "textures": {
+    "0": "terra:blocks/harkonnentexture2",
+    "particle": "terra:items/harkonnentexture2"
+  }
+}

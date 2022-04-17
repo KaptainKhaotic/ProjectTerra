@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "terra:blocks/pixil-frame-0_65_copy_3",
+    "up": "terra:blocks/pixil-frame-0_65_copy_3",
+    "north": "terra:blocks/pixil-frame-0_65_copy_2",
+    "east": "terra:blocks/pixil-frame-0_65_copy_2",
+    "south": "terra:blocks/pixil-frame-0_65_copy_2",
+    "west": "terra:blocks/pixil-frame-0_65_copy_2",
+    "particle": "terra:blocks/pixil-frame-0_65_copy_3"
+  }
+}

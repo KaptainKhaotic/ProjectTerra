@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "harkonnentexture2",
+    "customModelName": "harkonnenfix:default",
+    "name": "Harkonnen",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:HEATSHELL"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:harkonnenboom"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "HarKonnenRangedItemUsed"
+    },
+    "bulletPower": 5.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 15,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelharkonnenshellfix",
+    "customBulletModelTexture": "harkonnenshell.png"
+  }
+}

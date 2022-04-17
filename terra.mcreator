@@ -1,0 +1,427 @@
+{
+  "mod_elements": [
+    {
+      "name": "TrolliumOxide",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollium_oxide"
+    },
+    {
+      "name": "TrolliumFragment",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollium_fragment"
+    },
+    {
+      "name": "Gunpowda",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowda"
+    },
+    {
+      "name": "Targeted",
+      "type": "potioneffect",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "targeted"
+    },
+    {
+      "name": "DreadHusk",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dread_husk"
+    },
+    {
+      "name": "DreadHuskEntityIsHurt",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dread_husk_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueIron",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_iron",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Disaster",
+      "type": "particle",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disaster"
+    },
+    {
+      "name": "Dodododo",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodododo"
+    },
+    {
+      "name": "Boss1field",
+      "type": "loottable",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss_1field"
+    },
+    {
+      "name": "Testboss1",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testboss_1"
+    },
+    {
+      "name": "KubelWagen",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubel_wagen"
+    },
+    {
+      "name": "DeadWood",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_wood"
+    },
+    {
+      "name": "Shade",
+      "type": "enchantment",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shade"
+    },
+    {
+      "name": "DreadLeaf",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dread_leaf"
+    },
+    {
+      "name": "DreadLeafPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dread_leaf_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dreadrock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreadrock"
+    },
+    {
+      "name": "ShadeBorn",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shade_born"
+    },
+    {
+      "name": "DreadLands",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dread_lands"
+    },
+    {
+      "name": "Trollmite",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trollmite"
+    },
+    {
+      "name": "BlueSteel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_steel"
+    },
+    {
+      "name": "HolyShitThatHurt",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_shit_that_hurt"
+    },
+    {
+      "name": "TargetedEffectExpires",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "targeted_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TargetedEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "targeted_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lean",
+      "type": "potion",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lean"
+    },
+    {
+      "name": "HEATSHELL",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatshell"
+    },
+    {
+      "name": "HarKonnen",
+      "type": "rangeditem",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "har_konnen"
+    },
+    {
+      "name": "HarKonnenCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "har_konnen_can_use_ranged_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "HarKonnenRangedItemUsed",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "har_konnen_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TouchyFred",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "touchy_fred"
+    },
+    {
+      "name": "ReloadRangedWeapons",
+      "type": "keybind",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_ranged_weapons"
+    },
+    {
+      "name": "MarusamaRightClickedInAir",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marusama_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MarusamaItemInHandTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marusama_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Marusama",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marusama"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dreadwhisper",
+      "files": [
+        "dreadambience"
+      ],
+      "category": "neutral",
+      "subtitle": "ancient"
+    },
+    {
+      "name": "harkonnenboom",
+      "files": [
+        "cannon_sound_effect_hd_for_videos_and_games"
+      ],
+      "category": "player",
+      "subtitle": "KABOOM KABOOM KABOOM"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.terra.trollmite": "Trollmite",
+      "block.terra.trollium_oxide": "Trollium Oxide",
+      "item.terra.blue_steel": "Blue Steel Pickaxe",
+      "block.terra.dreadrock": "Dreadrock",
+      "item.terra.dodododo": "Dodododo",
+      "item.terra.testboss_1_spawn_egg": "Testboss 1 Spawn Egg",
+      "entity.terra.shade_born": "Shade Born",
+      "item.terra.blue_iron_boots": "Blue Iron Boots",
+      "effect.targeted": "Targeted",
+      "item.terra.marusama": "Marusama",
+      "item.terra.trollium_fragment": "Trollium Fragment",
+      "key.terra.reload_ranged_weapons": "Reload Ranged Weapons",
+      "subtitles.harkonnenboom": "KABOOM KABOOM KABOOM",
+      "advancements.holy_shit_that_hurt.title": "Holy Shit That Hurt",
+      "enchantment.terra.shade": "Shade",
+      "entity.terra.testboss_1": "Testboss 1",
+      "item.terra.shade_born_spawn_egg": "Shade Born Spawn Egg",
+      "block.terra.dead_wood": "Dead Wood",
+      "advancements.holy_shit_that_hurt.descr": "WTF?!?!?!?",
+      "item.terra.trollmite_spawn_egg": "Trollmite Spawn Egg",
+      "item.minecraft.splash_potion.effect.lean": "Splash Potion of Lean",
+      "item.minecraft.lingering_potion.effect.lean": "Lingering Potion of Lean",
+      "entity.terra.touchy_fred": "Touchy Fred",
+      "biome.terra.dread_lands": "Dread Lands",
+      "effect.terra.targeted": "Targeted",
+      "item.terra.dodododo.desc": "A A A A",
+      "block.terra.dread_leaf": "Dread Leaf",
+      "item.minecraft.potion.effect.lean": "Lean",
+      "item.terra.blue_iron_leggings": "Blue Iron Leggings",
+      "entity.terra.dread_husk": "Test",
+      "entity.terra.kubel_wagen": "Kubel Wagen",
+      "item.terra.touchy_fred_spawn_egg": "Touchy Fred Spawn Egg",
+      "subtitles.dreadwhisper": "ancient",
+      "item.terra.har_konnen": "Harkonnen",
+      "item.minecraft.tipped_arrow.effect.lean": "Arrow of Lean",
+      "item.terra.heatshell": "H.E.A.T Shell",
+      "item.terra.blue_iron_chestplate": "Blue Iron Body",
+      "item.terra.kubel_wagen_spawn_egg": "Kubel Wagen Spawn Egg",
+      "item.terra.dread_husk_spawn_egg": "Test Spawn Egg",
+      "item.terra.blue_iron_helmet": "Blue Iron Helm"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "terra",
+    "modName": "Terra",
+    "version": "1.0.0",
+    "author": "209883, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.terra",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "luigis_italian_ice",
+    "name": "Dodododo",
+    "description": "A A A A",
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "music": {
+      "value": "ambient.cave"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

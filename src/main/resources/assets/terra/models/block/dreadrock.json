@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "terra:blocks/dreadrock",
+    "up": "terra:blocks/dreadrock",
+    "north": "terra:blocks/dreadrock",
+    "east": "terra:blocks/dreadrock",
+    "south": "terra:blocks/dreadrock",
+    "west": "terra:blocks/dreadrock",
+    "particle": "terra:blocks/dreadrock"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Lean",
+    "splashName": "Splash Potion of Lean",
+    "lingeringName": "Lingering Potion of Lean",
+    "arrowName": "Arrow of Lean",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3700,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

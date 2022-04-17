@@ -1,0 +1,22 @@
+{
+  "dreadwhisper": {
+    "category": "neutral",
+    "subtitle": "subtitles.dreadwhisper",
+    "sounds": [
+      {
+        "name": "terra:dreadambience",
+        "stream": false
+      }
+    ]
+  },
+  "harkonnenboom": {
+    "category": "player",
+    "subtitle": "subtitles.harkonnenboom",
+    "sounds": [
+      {
+        "name": "terra:cannon_sound_effect_hd_for_videos_and_games",
+        "stream": false
+      }
+    ]
+  }
+}

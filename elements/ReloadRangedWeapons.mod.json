@@ -1,0 +1,9 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Reload Ranged Weapons",
+    "keyBindingCategoryKey": "misc"
+  }
+}

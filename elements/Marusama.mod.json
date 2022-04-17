@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "maroonsama",
+    "customModelName": "Tool",
+    "name": "Marusama",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 2.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 16.0,
+    "specialInfo": [
+      "{display:{Name:\"{\\\"text\\\":\\\"&4Marusama\\\"",
+      "...}\"",
+      "color:#",
+      "Lore:[\"{\\\"text\\\":\\\"&4The Only Thing I Know Is Real\\\"}\"",
+      "...]}}"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "MarusamaRightClickedInAir"
+    },
+    "onItemInUseTick": {
+      "name": "MarusamaItemInHandTick"
+    },
+    "hasDispenseBehavior": false
+  }
+}

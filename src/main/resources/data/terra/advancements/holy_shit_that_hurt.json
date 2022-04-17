@@ -1,0 +1,39 @@
+{
+  "display": {
+    "background": "terra:textures/targeted.png",
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.holy_shit_that_hurt.title"
+    },
+    "description": {
+      "translate": "advancements.holy_shit_that_hurt.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "holy_shit_that_hurt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "terra:dodododo"
+            ],
+            "count": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}
